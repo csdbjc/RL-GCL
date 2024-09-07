@@ -1,0 +1,1 @@
+python main_finetune.py --dataset bbbp --dataset_load bbbp --protocol linear

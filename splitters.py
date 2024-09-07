@@ -7,7 +7,6 @@ from rdkit.Chem.Scaffolds import MurckoScaffold
 from collections import defaultdict
 from tqdm import tqdm
 
-
 def generate_scaffold(mol, include_chirality=False):
     mol = Chem.MolFromSmiles(mol) if type(mol) == str else mol
     scaffold = MurckoScaffold.MurckoScaffoldSmiles(mol=mol, includeChirality=include_chirality)
