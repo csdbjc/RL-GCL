@@ -5,7 +5,7 @@ import itertools
 import torch
 from ogb.utils.features import bond_to_feature_vector, atom_to_feature_vector
 from rdkit.Avalon import pyAvalonTools
-from rdkit.Chem import Draw
+# from rdkit.Chem import Draw
 from six.moves import range
 from six.moves import zip
 from rdkit import Chem

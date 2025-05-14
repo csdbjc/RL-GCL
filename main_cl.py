@@ -13,7 +13,7 @@ from loader import MoleculeDataset
 from model import GNN
 from tqdm import tqdm
 
-from contrastive import SupConLoss, compute_similarity, KContrastiveLoss, contrastive_loss
+from contrastive import SupConLoss
 from splitters import scaffold_split, random_split
 
 
@@ -104,6 +104,8 @@ def main():
         num_tasks = 12
     elif args.dataset == 'qm9':
         num_tasks = 3
+    elif args.dataset == 'C3F6':
+        num_tasks = 26
     else:
         raise ValueError("Invalid dataset name.")
 
