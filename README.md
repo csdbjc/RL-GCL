@@ -1,7 +1,7 @@
 # RL-GCL
 This repository is the official implementation of `
 RL-GCL`, 
-which is model proposed in a paper: 
+which is model proposed in a paper: **"RL-GCL: Reinforcement Learning-Guided Contrastive Learning for molecular property prediction"**
 ## Brief introduction
 **a. Graph Augmentation with Reinforcement.** We want to obtain the 
 corresponding hard molecular augmentation based on the original molecule 
@@ -63,7 +63,7 @@ command:
 # Step-by-step guidelines
 ### Genetare hard molecular graph augmentations
 You can download the generated molecular graph augmentations 
-[**here**](https://drive.google.com/file/d/10QImFrfVSzDrvrWyKALRwt0bsOis0ZCl/view?usp=drive_link) and place them in RL-GCL to pre-train a new model by 
+[**here**](https://drive.google.com/file/d/1tDMHb_Z_-qEKiqgZr2Y6oNV3heOsv7lI/view?usp=drive_link) and place them in RL-GCL to pre-train a new model by 
 contrastive learning, or you can skip this step and 
 **Graph contrastive learning** to perform **Fine-tuning** step 
 directly using our pre-trained model.
